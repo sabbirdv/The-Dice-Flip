@@ -15,6 +15,6 @@ function flip(){
         images.push(`<img src="dice/${value}.png" alt="dice ${value}">`);
     }
 
-    diceResult.textContent = `dice: ${values.join(", ")}`
+    diceResult.textContent = ` ${values.join(", ")}`
     diceImage.innerHTML = images.join("");
 }
